@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#0f4c5c">
+<title>行测刷题</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f5f5f0;color:#1f2937;line-height:1.6;font-size:16px;padding-bottom:40px}
+.header{background:#0f4c5c;color:#fff;padding:20px 16px;position:sticky;top:0;z-index:10}
+.header h1{font-size:20px;font-weight:600}
+.header .sub{font-size:12px;opacity:.7;margin-top:4px}
+.wrap{padding:16px}
+.stats{display:flex;gap:10px;margin-bottom:16px}
+.stat{flex:1;background:#fff;border-radius:12px;padding:12px 8px;text-align:center}
+.stat .num{font-size:22px;font-weight:700;color:#0f4c5c}
+.stat .label{font-size:11px;color:#6b7280;margin-top:2px}
+.mod{display:flex;justify-content:space-between;align-items:center;padding:16px;background:#fff;border-radius:14px;margin-bottom:10px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.mod:active{background:#f0f7f8}
+.mod .name{font-size:17px;font-weight:600}
+.mod .count{font-size:13px;color:#6b7280;margin-top:2px}
+.mod .arrow{color:#9ca3af;font-size:20px}
+.section-title{font-size:15px;font-weight:600;margin:16px 0 10px;padding-left:4px}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>行测刷题</h1>
+  <div class="sub">全模块 · 27342题</div>
+</div>
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><div class="num">6</div><div class="label">模块</div></div>
+    <div class="stat"><div class="num">27342</div><div class="label">总题数</div></div>
+    <div class="stat"><div class="num">5年</div><div class="label">真题</div></div>
+  </div>
+  <div class="section-title">分模块练习</div>
+  <div class="mod" onclick="location.href='行测-言语理解.html'">
+    <div><div class="name">言语理解</div><div class="count">6951题 · 逻辑填空/片段阅读</div></div><div class="arrow">›</div>
+  </div>
+  <div class="mod" onclick="location.href='行测-判断推理.html'">
+    <div><div class="name">判断推理</div><div class="count">7743题 · 图形/定义/类比/逻辑</div></div><div class="arrow">›</div>
+  </div>
+  <div class="mod" onclick="location.href='行测-资料分析.html'">
+    <div><div class="name">资料分析</div><div class="count">3601题 · 增长率/比重/平均数</div></div><div class="arrow">›</div>
+  </div>
+  <div class="mod" onclick="location.href='行测-常识判断.html'">
+    <div><div class="name">常识判断</div><div class="count">4776题 · 法律/历史/科技/地理</div></div><div class="arrow">›</div>
+  </div>
+  <div class="mod" onclick="location.href='行测-数量关系.html'">
+    <div><div class="name">数量关系</div><div class="count">3203题 · 数学运算/数字推理</div></div><div class="arrow">›</div>
+  </div>
+  <div class="mod" onclick="location.href='行测-政治理论.html'">
+    <div><div class="name">政治理论</div><div class="count">1068题 · 时政/马哲/中特</div></div><div class="arrow">›</div>
+  </div>
+</div>
+</body>
+</html>
